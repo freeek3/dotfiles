@@ -1,0 +1,57 @@
+# Put your aliases in here
+# The script will create a links to .bash_aliases and for the ZSH shell also
+
+
+
+# ALIASES
+
+# Easier navigation: .., ..., ...., ....., ~ and -
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ~="cd ~" # `cd` is probably faster to type though
+alias -- -="cd -"
+
+#Shortcuts
+alias d="cd ~/Documents/Dropbox"
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias p="cd ~/projects"
+alias g="git"
+
+#Prevent tragedy
+alias   rm="rm -i"
+
+# IP addresses
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+#alias localip="ipconfig getifaddr en0"
+alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
+
+
+
+# Zsh previously had ll. Somehow this changed to work with less.
+# This changed it back again
+alias ls='ls --color=auto'
+alias ll='ls -alF'
+alias la='ls -al'
+alias l='ls -CF'
+alias ll="ls -A"
+
+# NPM
+alias   npmo="npm outdated"
+alias   npmu="npm update"
+alias   npmi="npm install"
+
+# Apt
+alias   agu="sudo apt update"
+alias   agg="sudo apt upgrade"
+alias   agr="sudo apt autoremove"
+alias   agc="sudo apt autoclean"
+alias   agi="sudo apt install"
+alias   ap="sudo aptitude"
+
+alias running="ps x"
+
+
+#alias start-the-day=
