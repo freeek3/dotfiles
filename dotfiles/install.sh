@@ -5,12 +5,12 @@ echo "Updating"
 sudo apt-get update && sudo apt-get upgrade -y
 
 #Check for Updates/Installed Version
-if [ -d "$HOME/dotfiles" ] 
+if [ -e "$HOME/dotfiles/update.sh" ] 
 then 
     bash "$HOME/dotfiles/update.sh"
     exit 1
 else
-    git clone https://github.com/freeek3/dotfiles-wsl $HOME/dotfiles
+    git clone https://github.com/freeek3/dotfiles $HOME/dotfiles
 fi
 
 echo "Installing Zsh and oh-my-zsh"
