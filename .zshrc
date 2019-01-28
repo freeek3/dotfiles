@@ -95,9 +95,15 @@ export LANG=de_DE.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 #alias ohmyzsh="mate ~/.oh-my-zsh"
 alias dotfiles="git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
+alias dfi="dotfiles"
+alias dfp="dotfiles push -u origin master"
+
+if [ -f ~/.exports ]; then
+    . ~/.exports
+fi
 
 if [ -f ~/.aliases ]; then
     . ~/.aliases
 fi
 
-
+cd $WINHOME

@@ -1,2 +1,4 @@
 export EDITOR='vim';
 export PYTHONIOENCODING='UTF-8';
+export WINHOME=$(wslpath -u $(powershell.exe -NoProfile 'Write-Host $env:USERPROFILE'))
+
