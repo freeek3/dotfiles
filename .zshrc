@@ -1,3 +1,11 @@
+if [ -f ~/.exports ]; then
+    . ~/.exports
+fi
+
+if [ -f ~/.aliases ]; then
+    . ~/.aliases
+fi
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -79,6 +87,7 @@ plugins=(git,
 	pyenv,
 	python,
 	vscode,
+	ssh-agent
 )
 
 ZSH_THEME="agnoster-multiline"
@@ -117,12 +126,6 @@ alias dotfiles="git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
 alias dfi="dotfiles"
 alias dfp="dotfiles push -u origin master"
 
-if [ -f ~/.exports ]; then
-    . ~/.exports
-fi
-
-if [ -f ~/.aliases ]; then
-    . ~/.aliases
-fi
+#eval $($WINHOME/dotfiles/ssh-agent-wsl/ssh-agent-wsl -r)
 
 cd $WINHOME
