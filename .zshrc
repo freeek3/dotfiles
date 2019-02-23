@@ -10,7 +10,7 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/lars/.oh-my-zsh"
+export ZSH="/Users/lmull/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -71,9 +71,9 @@ ZSH_CUSTOM=$HOME/dotfiles/zshcustom
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git,
-	Zsh-dircolors-solarized,
+	#Zsh-dircolors-solarized,
 	autopep8,
-	common-aliases,
+	#common-aliases,
 	django,
 	docker,
 	extract,
@@ -86,8 +86,8 @@ plugins=(git,
 	pip,
 	pyenv,
 	python,
-	vscode,
-	ssh-agent
+	#vscode,
+	#ssh-agent
 )
 
 ZSH_THEME="agnoster-multiline"
@@ -128,4 +128,7 @@ alias dfp="dotfiles push -u origin master"
 
 #eval $($WINHOME/dotfiles/ssh-agent-wsl/ssh-agent-wsl -r)
 
-cd $WINHOME
+#cd $WINHOME
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+

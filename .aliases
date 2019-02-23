@@ -34,7 +34,7 @@ alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[
 
 # Zsh previously had ll. Somehow this changed to work with less.
 # This changed it back again
-alias ls='ls --color=auto'
+#alias ls='ls --color=auto'
 alias ll='ls -alF'
 alias la='ls -al'
 alias l='ls -CF'
@@ -46,14 +46,19 @@ alias   npmu="npm update"
 alias   npmi="npm install"
 
 # Apt
-alias   agu="sudo apt update"
-alias   agg="sudo apt upgrade"
-alias   agr="sudo apt autoremove"
-alias   agc="sudo apt autoclean"
-alias   agi="sudo apt install"
-alias   ap="sudo aptitude"
+#alias   agu="sudo apt update"
+#alias   agg="sudo apt upgrade"
+#alias   agr="sudo apt autoremove"
+#alias   agc="sudo apt autoclean"
+#alias   agi="sudo apt install"
+#alias   ap="sudo aptitude"
 
 alias running="ps x"
 
+#Alias python="python3"
 
 #alias start-the-day=
+
+#Mac Aliases
+alias typora="open -a Typora"
+alias r="typora"
