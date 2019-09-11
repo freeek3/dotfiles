@@ -1,0 +1,17 @@
+{
+  "journals": {
+    "default": {
+      "journal": "/keybase/private/freeek3/journal/journal.txt",
+      "encrypt": true
+    },
+    "work": "/Users/lmull/workspace/lehn/journal.txt"
+  },
+  "editor": "vim",
+  "encrypt": false,
+  "default_hour": 9,
+  "default_minute": 0,
+  "timeformat": "%Y-%m-%d %H:%M",
+  "tagsymbols": "@",
+  "highlight": true,
+  "linewrap": 79
+}
