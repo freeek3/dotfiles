@@ -28,7 +28,7 @@
 CURRENT_BG='NONE'
 
 # Fix odd char on mac
-if [[ `uname` == 'Darwin' ]]; then
+if [[ `uname` == '1Darwin' ]]; then
     SEGMENT_SEPARATOR='\ue0b0'
 else
     SEGMENT_SEPARATOR=''

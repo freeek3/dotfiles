@@ -52,6 +52,7 @@
 [core]
     pager = less -FRSX
     whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+	excludesfile = /Users/lmull/.gitignore_global
 
 [diff]
     tool = vimdiff
@@ -146,3 +147,9 @@
 
 [url "git@github.com:"]
     insteadof = github:
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

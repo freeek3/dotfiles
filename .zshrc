@@ -70,25 +70,21 @@ ZSH_CUSTOM=$HOME/dotfiles/zshcustom
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git,
-	#Zsh-dircolors-solarized,
-	autopep8,
-	#common-aliases,
-	django,
-	docker,
-	extract,
-	git-extras,
-	gpg-agent,
-	github,
-	history,
-	last-working-dir,
-	npm,
-	pip,
-	pyenv,
-	python,
-	#vscode,
-	#ssh-agent
-)
+plugins=(git
+	autopep8
+	django
+	docker
+	extract
+	git-extras
+	#gpg-agent
+	github
+	history
+	last-working-dir
+	npm
+	pip
+	pyenv
+	python
+	)
 
 ZSH_THEME="agnoster-multiline"
 
