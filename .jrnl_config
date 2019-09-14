@@ -1,9 +1,10 @@
 {
   "journals": {
     "default": {
-      "journal": "/keybase/private/freeek3/journal/journal.txt",
+      "journal": "/Users/lmull/journal/journal.txt",
       "encrypt": true
     },
+    "uni": "/Users/lmull/journal/uni.txt",
     "work": "/Users/lmull/workspace/lehn/journal.txt"
   },
   "editor": "vim",
