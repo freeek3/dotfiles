@@ -62,9 +62,9 @@ alias python="python3"
 eval $(thefuck --alias)
 
 #Mac Aliases
-alias typora="open -a Typora"
-alias r="typora"
-alias docker_restart="osascript -e 'quit app \"Docker\"' && open -a Docker"
+#alias typora="open -a Typora"
+#alias r="typora"
+#alias docker_restart="osascript -e 'quit app \"Docker\"' && open -a Docker"
 
 # Jrnl Alias
 alias journal="git --git-dir=$HOME/dotfiles/"

@@ -1,3 +1,4 @@
+
 if [ -f ~/.exports ]; then
     . ~/.exports
 fi
@@ -10,7 +11,7 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/lmull/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -124,8 +125,8 @@ alias dfp="dotfiles push -u origin master"
 alias dfu="dotfiles pull"
 
 #eval $($WINHOME/dotfiles/ssh-agent-wsl/ssh-agent-wsl -r)
-. $HOME/.ghcup/env
+#. $HOME/.ghcup/env
 #cd $WINHOME
 
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+#test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
