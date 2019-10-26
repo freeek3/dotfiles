@@ -6,9 +6,8 @@ source ~/.vim_runtime/vimrcs/plugins_config.vim
 source ~/.vim_runtime/vimrcs/extended.vim
 
 try
-source ~/.vim_runtime/my_configs.vim
+source ~/dotfiles/config.vim
 catch
 endtry
 
-syntax on
-filetype plugin indent on
+Plug 'arcticicestudio/nord-vim'
