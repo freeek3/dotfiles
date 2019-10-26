@@ -1,7 +1,7 @@
 export EDITOR='vim';
 export PYTHONIOENCODING='UTF-8';
 export PATH=~/.npm-global/bin:$PATH
-#export WINHOME=$(wslpath -u $(powershell.exe -NoProfile 'Write-Host $env:USERPROFILE'))
+export WINHOME=$(wslpath -u $(powershell.exe -NoProfile 'Write-Host $env:USERPROFILE'))
 
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$(CONDA_REPORT_ERRORS=false '/Users/lmull/miniconda3/bin/conda' shell.bash hook 2> /dev/null)"
