@@ -1,11 +1,9 @@
 {
   "journals": {
     "default": {
-      "journal": "/Users/lmull/journal/journal.txt",
+      "journal": "/Users/lmull/OneDrive - tum.de/Notizb\u00fccher/jrnl/journal.txt",
       "encrypt": true
-    },
-    "uni": "/Users/lmull/journal/uni.txt",
-    "work": "/Users/lmull/workspace/lehn/journal.txt"
+    }
   },
   "editor": "vim",
   "encrypt": false,

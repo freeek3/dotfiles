@@ -121,9 +121,10 @@ export LANG=de_DE.UTF-8
 alias dotfiles="git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
 alias dfi="dotfiles"
 alias dfp="dotfiles push -u origin master"
+alias dfu="dotfiles pull"
 
 #eval $($WINHOME/dotfiles/ssh-agent-wsl/ssh-agent-wsl -r)
-
+. $HOME/.ghcup/env
 #cd $WINHOME
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
