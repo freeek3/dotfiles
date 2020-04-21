@@ -27,3 +27,9 @@ git clone --bare https://github.com/freeek3/dotfiles.git $HOME/dotfiles && git -
 
 ### Linux 
 
+
+## ToDO
+
+- [] make it more system independent
+- [] remove jrnl
+- [] better vimrc / maybe remove
